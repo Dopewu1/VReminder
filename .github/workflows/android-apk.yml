@@ -10,6 +10,9 @@ on:
 permissions:
   contents: read
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   build-debug-apk:
     name: Build Debug APK
@@ -27,12 +30,11 @@ jobs:
           cache: gradle
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          packages: ""
+        uses: android-actions/setup-android@v3.2.2
 
       - name: Install Android SDK packages
         run: |
+          yes | sdkmanager --licenses > /dev/null || true
           sdkmanager --install \
             "platform-tools" \
             "platforms;android-36" \
@@ -47,7 +49,7 @@ jobs:
         run: gradle :app:assembleDebug --no-daemon
 
       - name: Upload debug APK
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: voice-reminder-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
