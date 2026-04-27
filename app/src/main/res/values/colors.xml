@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface_base">#F4F4F2</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="card_stroke">#14000000</color>
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#6A6A6A</color>
+    <color name="fab_bg">#111111</color>
+
+    <color name="priority_high">#C62828</color>
+    <color name="priority_medium">#EF6C00</color>
+    <color name="priority_low">#2E7D32</color>
+
+    <color name="priority_high_container">#FDEAEA</color>
+    <color name="priority_medium_container">#FFF0DF</color>
+    <color name="priority_low_container">#E8F4EA</color>
+</resources>

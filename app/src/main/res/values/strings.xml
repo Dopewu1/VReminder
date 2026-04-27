@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Reminder</string>
+    <string name="menu_reminders">Напоминания</string>
+    <string name="menu_notes">Заметки</string>
+    <string name="add">Добавить</string>
+    <string name="add_reminder">Новое напоминание</string>
+    <string name="edit_reminder">Редактировать напоминание</string>
+    <string name="add_note">Новая заметка</string>
+    <string name="edit_note">Редактировать заметку</string>
+    <string name="action_voice">Голосом</string>
+    <string name="action_manual">Вручную</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_delete">Удалить</string>
+    <string name="hint_task">Текст задачи</string>
+    <string name="hint_note">Текст заметки</string>
+    <string name="hint_priority">Приоритет</string>
+    <string name="select_date">Дата</string>
+    <string name="select_time">Время</string>
+    <string name="priority_high">Высокий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_low">Низкий</string>
+    <string name="status_active">Активно</string>
+    <string name="status_triggered">Отправлено</string>
+    <string name="reminders_empty">Здесь появятся напоминания</string>
+    <string name="notes_empty">Здесь появятся заметки</string>
+    <string name="notification_title">Напоминание</string>
+    <string name="voice_prompt">Произнесите напоминание</string>
+    <string name="voice_not_available">Голосовой ввод недоступен на устройстве</string>
+    <string name="voice_empty_error">Не удалось распознать речь</string>
+    <string name="voice_parse_task_error">Не удалось определить текст задачи</string>
+    <string name="voice_parse_datetime_error">Дата или время не распознаны. Выберите их вручную.</string>
+    <string name="microphone_permission_denied">Для голосового ввода нужен доступ к микрофону</string>
+    <string name="validation_empty_text">Текст не должен быть пустым</string>
+    <string name="reminder_created_voice">Напоминание создано со средним приоритетом</string>
+    <string name="channel_high_name">Важные напоминания</string>
+    <string name="channel_high_description">Уведомления высокого приоритета</string>
+    <string name="channel_medium_name">Обычные напоминания</string>
+    <string name="channel_medium_description">Уведомления среднего приоритета</string>
+    <string name="channel_low_name">Низкий приоритет</string>
+    <string name="channel_low_description">Уведомления низкого приоритета</string>
+</resources>
